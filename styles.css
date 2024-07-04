@@ -1,0 +1,121 @@
+@import url('(link unavailable)');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('(link unavailable)');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-color: #6a5acd;
+  opacity: 1;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#title, #description {
+  color: #ffffff;
+}
+
+#description {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#survey-form {
+  background-color: #f6f6f6;
+  max-width: 800px;
+  padding: 40px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #6a5acd;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 3px solid #6a5acd;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #f8554e;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+input[type="text"]:hover, input[type="email"]:hover, input[type="number"]:hover, select:hover, textarea:hover {
+  border-color: #f8554e;
+  background-color: #f6f6f6;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="number"]::placeholder, textarea::placeholder {
+  color: #808080;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: none;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  color: #f8554e;
+}
+
+input[type="radio"] + label:before, input[type="checkbox"] + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  border: 2px solid #f8554e;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"] + label:before {
+  border-radius: 5px;
+}
+
+input[type="radio"]:checked + label:before, input[type="checkbox"]:checked + label:before {
+  background-color: #f8554e;
+}
+
+button {
+  background-color: #6a5acd;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: medium;
+}
+
+button:hover {
+  background-color: #f8554e;
+  color: #fff;
+}
